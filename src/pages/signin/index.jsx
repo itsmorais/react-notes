@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi'
 import { useAuth } from "../../hooks/auth";
 import { Container, Form, Background } from "./styles";
-import { Input } from '../../components/input'
-import { Button } from '../../components/button'
-import { ButtonText } from '../../components/buttonText'
+import { Input } from '../../Components/input'
+import { Button } from '../../Components/button'
+import { ButtonText } from '../../Components/buttonText'
 
 
 export function SignIn() {

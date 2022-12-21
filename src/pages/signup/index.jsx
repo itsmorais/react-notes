@@ -3,9 +3,9 @@ import { FiLogIn, FiMail, FiLock, FiUser } from 'react-icons/fi'
 import { useState } from "react"
 import { api } from "../../services/api"
 import { Container, Form, Background } from "./styles";
-import { Input } from '../../components/input'
-import { Button } from '../../components/button'
-import { ButtonText } from '../../components/buttonText'
+import { Input } from '../../Components/input'
+import { Button } from '../../Components/button'
+import { ButtonText } from '../../Components/buttonText'
 
 
 

@@ -3,11 +3,11 @@ import { useEffect, useState } from 'react';
 import { api } from '../../services/api';
 import { FiPlus, FiSearch } from 'react-icons/fi'
 import { Container, Brand, Menu, Search, Content, NewNote } from './styles';
-import { Header } from '../../components/Header';
-import { ButtonText } from '../../components/ButtonText';
-import { Input } from '../../components/Input';
-import { Section } from '../../components/Section';
-import { Note } from '../../components/Note';
+import { Header } from '../../Components/Header';
+import { ButtonText } from '../../Components/ButtonText';
+import { Input } from '../../Components/Input';
+import { Section } from '../../Components/Section';
+import { Note } from '../../Components/Note';
 
 
 export function Home() {
