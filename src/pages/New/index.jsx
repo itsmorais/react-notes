@@ -1,14 +1,14 @@
 import { Container, Form } from "./styles";
-import { Header } from "../../components/header"
-import { Input } from "../../components/input"
+import { Header } from "../../components/Header"
+import { Input } from "../../components/Input"
 import { TextArea } from "../../components/TextArea";
-import { Section } from "../../components/section"
+import { Section } from "../../components/Section"
 import { NoteItem } from "../../components/NoteItem";
-import { Button } from "../../components/button"
+import { Button } from "../../components/Button"
 import { useNavigate } from 'react-router-dom'
 import { useState } from "react";
 import { api } from "../../services/api";
-import { ButtonText } from "../../components/buttonText";
+import { ButtonText } from "../../components/ButtonText";
 
 
 export function New() {
