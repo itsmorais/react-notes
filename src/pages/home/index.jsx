@@ -1,13 +1,13 @@
-import { useNavigate } from 'react-router-dom'
-import { useEffect, useState } from 'react';
-import { api } from '../../services/api';
-import { FiPlus, FiSearch } from 'react-icons/fi'
 import { Container, Brand, Menu, Search, Content, NewNote } from './styles';
+import { FiPlus, FiSearch } from 'react-icons/fi'
 import { Header } from '../../Components/Header';
 import { ButtonText } from '../../Components/ButtonText';
 import { Input } from '../../Components/Input';
 import { Section } from '../../Components/Section';
 import { Note } from '../../Components/Note';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom'
+import { api } from '../../services/api';
 
 
 export function Home() {
@@ -117,5 +117,5 @@ export function Home() {
 
     </Container>
 
-  )
+  );
 }

@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home } from "../Pages/Home";
 import { New } from "../Pages/New";
-import { Profile } from "../Pages/Profile";
+import { Home } from "../Pages/Home";
 import { Detail } from "../Pages/Detail";
+import { Profile } from "../Pages/Profile";
 
 export function AppRoutes() {
   return (
